@@ -9,7 +9,7 @@ import twitterDarkIcon from "../../assets/twitter-dark.svg";
 import linkedinLightIcon from "../../assets/linkedin-light.svg";
 import linkedindarkIcon from "../../assets/linkedin-dark.svg";
 import CV from "../../assets/cv.pdf";
-import { useTheme } from "../../common/themeContext";
+import { useTheme } from "../../common/useTheme";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();

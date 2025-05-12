@@ -3,7 +3,7 @@ import styles from "./SkillsStyle.module.css";
 import checkMarkLight from "../../assets/checkmark-light.svg";
 import checkMarkDark from "../../assets/checkmark-dark.svg";
 import SkillList from "../../common/skillList";
-import { useTheme } from "../../common/themeContext";
+import { useTheme } from "../../common/useTheme";
 
 function Skills() {
   const { theme } = useTheme();
