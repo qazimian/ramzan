@@ -69,7 +69,9 @@ p{
   cursor: pointer;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 @media (width >=800px) {
   #root{

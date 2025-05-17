@@ -6,9 +6,22 @@ function Contact() {
     <section id="contact" className={style.container}>
       <h1 className="sectionTitle">Contact</h1>
 
-      <form action="">
+      <form
+        action="https://formsubmit.co/24b796baeaa85742dad47a2f9e6c70c7"
+        method="POST"
+      >
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="New message from portfolio!"
+        />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://ramzann.netlify.app/#hero"
+        />
         <div className="formGroup">
-          <label htmlFor="name"></label>
           <input
             type="text"
             name="name"
@@ -18,7 +31,6 @@ function Contact() {
           />
         </div>
         <div className="formGroup">
-          <label htmlFor="email"></label>
           <input
             type="email"
             name="email"
@@ -28,7 +40,6 @@ function Contact() {
           />
         </div>
         <div className="formGroup">
-          <label htmlFor="message"></label>
           <textarea
             name="message"
             id="message"
