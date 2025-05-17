@@ -6,8 +6,9 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
-  margin-top: -180px;
-  margin-bottom: -100px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  
 }
 
 .container span {
@@ -71,6 +72,7 @@
 
 .description {
   max-width: 24ch;
+  align-self: center;
 }
 
 .info {

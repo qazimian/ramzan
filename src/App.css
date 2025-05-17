@@ -1,3 +1,4 @@
+
 :root {
   --background-color: #fff;
   --btn-color: #0987f2;
@@ -23,7 +24,7 @@ body {
   color: var(--text-color);
   display: flex;
   justify-content: center;
-  margin: 60px auto;
+  margin: 20px auto;
 }
 
 #root {
@@ -74,6 +75,9 @@ html {
 }
 
 @media (width >=800px) {
+  body{
+    margin: 0px;
+  }
   #root{
     gap: 100px;
   }
@@ -93,6 +97,7 @@ html {
   }
 }
 @media (width >=1200px) {
+  
   #root{
     gap: 200px;
   }
