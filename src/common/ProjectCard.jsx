@@ -1,12 +1,15 @@
 import React from "react";
 
-function ProjectCard({ src, link, h3, p }) {
+
+function ProjectCard({ src, h3, p, github, liveDemo }) {
   return (
-    <a href={link} target="_blank">
+    <div>
       <img className="hover" src={src} alt={`${h3} logo`} />
       <h3>{h3}</h3>
       <p>{p}</p>
-    </a>
+      <a href={github} target="_blank"> <button>Github</button> </a>
+      <a href={liveDemo} target="_blank"> <button>Live Demo</button> </a>
+    </div>
   );
 }
 
