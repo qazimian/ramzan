@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./ProjectsStyle.module.css";
-import viber from "../../assets/viberr.png";
-import hipsster from "../../assets/hipsster.png";
-import fitlift from "../../assets/fitlift.png";
-import freshBurger from "../../assets/fresh-burger.png";
+import todo from "../../assets/todo-app.png";
+import weather from "../../assets/weather-app.png";
+import cc from "../../assets/ramzan-currency-converter.png";
+import irfan from "../../assets/drirfan.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -13,8 +13,8 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <div className={styles.cardFrame}>
           <ProjectCard
-            src={viber}
-            link="https://www.google.com"
+            src={todo}
+            link="https://ramzantodo.netlify.app/"
             h3={"Ramzan-Todo"}
             p={"Todo List App"}
             github={"https://www.github.com/qazimian"}
@@ -24,32 +24,32 @@ function Projects() {
         <div className={styles.cardFrame}>
           <ProjectCard
             className={styles.projectCard}
-            src={hipsster}
-            link="https://www.google.com"
+            src={weather}
+            link="https://ramzanweather.netlify.app/"
             h3={"Ramzan-Weather"}
             p={"Weather App"}
             github={"https://www.github.com/qazimian"}
-            liveDemo={"https://ramzantodo.netlify.app/"}
+            liveDemo={"https://ramzanweather.netlify.app/"}
           />
         </div>
         <div className={styles.cardFrame}>
           <ProjectCard
-            src={freshBurger}
-            link="https://www.google.com"
+            src={cc}
+            link="https://ramzan-currency-converter.netlify.app/"
             h3={"Ramzan-Game"}
             p={"Rock Paper Sciessor"}
             github={"https://www.github.com/qazimian"}
-            liveDemo={"https://ramzantodo.netlify.app/"}
+            liveDemo={"https://ramzan-currency-converter.netlify.app/"}
           />
         </div>
         <div className={styles.cardFrame}>
           <ProjectCard
-            src={fitlift}
-            link="https://www.google.com"
-            h3={"Ramzan-Ecommerce"}
-            p={"Shopping Website"}
+            src={irfan}
+            link="https://drirfan.netlify.app/"
+            h3={"Dr Irfan"}
+            p={"psychiatrist Portfolio"}
             github={"https://www.github.com/qazimian"}
-            liveDemo={"https://ramzantodo.netlify.app/"}
+            liveDemo={"https://drirfan.netlify.app/"}
           />
         </div>
       </div>
