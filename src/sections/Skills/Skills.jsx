@@ -16,19 +16,17 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="HTML"/>
         <SkillList src={checkMarkIcon} skill="CSS"/>
         <SkillList src={checkMarkIcon} skill="JS"/>
-        <SkillList src={checkMarkIcon} skill="React"/>
+        <SkillList src={checkMarkIcon} skill="ReactJS"/>
         <SkillList src={checkMarkIcon} skill="SQL Server"/>
-        <SkillList src={checkMarkIcon} skill="MS Office"/>
+        
       </div>
       <hr/><div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="bootstrap"/>
-        <SkillList src={checkMarkIcon} skill="Tailwind CSS"/>
-        <SkillList src={checkMarkIcon} skill="Angular"/>
-        <SkillList src={checkMarkIcon} skill="MySql"/>
-        <SkillList src={checkMarkIcon} skill="C#"/>
+        <SkillList src={checkMarkIcon} skill="Bootstrap"/>
+        <SkillList src={checkMarkIcon} skill="TailwindCSS"/>
         <SkillList src={checkMarkIcon} skill="ASP.Net"/>
       </div>
       <hr/><div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="MS Office"/>
         <SkillList src={checkMarkIcon} skill="Git"/>
         <SkillList src={checkMarkIcon} skill="POWER BI"/>
         <SkillList src={checkMarkIcon} skill="Tableau"/>
